@@ -15,31 +15,31 @@ DEPLOY_DIR=/opt/cockpit
 PROXY_NET=monitoring
 
 # Hostnames / domains
-COCKPIT_DOMAIN="server.kxprex.com"
-POSTFIXADMIN_DOMAIN="mailmanager.kxprex.com"
-PHPMYADMIN_DOMAIN="phpmyadmin.kxprex.com"
-PORTAINER_DOMAIN="containers.kxprex.com"
-ROUNDCUBE_DOMAIN="mailserver.kxprex.com"
-RABBITMQ_DOMAIN="rabbitmq.kxprex.com"
-EMQX_DOMAIN="mqtt.kxprex.com"
-PROMETHEUS_DOMAIN="prom.kxprex.com"
-GRAFANA_DOMAIN="grafana.kxprex.com"
-MAILSERVER_DOMAIN="mail.kxprex.com"
-MAIN_DOMAIN="kxprex.com"
-LETSENCRYPT_EMAIL=kenneth@kxprex.com
-POSTMASTER_ADDRESS=postmaster@kxprex.com
+COCKPIT_DOMAIN=""
+POSTFIXADMIN_DOMAIN=""
+PHPMYADMIN_DOMAIN=""
+PORTAINER_DOMAIN=""
+ROUNDCUBE_DOMAIN=""
+RABBITMQ_DOMAIN=""
+EMQX_DOMAIN=""
+PROMETHEUS_DOMAIN=""
+GRAFANA_DOMAIN=""
+MAILSERVER_DOMAIN=""
+MAIN_DOMAIN=""
+LETSENCRYPT_EMAIL=
+POSTMASTER_ADDRESS=
 
 # Admins / emails
-DEFAULT_CONTACT_EMAIL="kenneth@kxprex.com"
-NEW_USER="flareadmin"
+DEFAULT_CONTACT_EMAIL=""
+NEW_USER=""
 
 # Timezone
 TZ_DEFAULT="UTC"
 
 # Database credentials
-DB_NAME="flaretech"
-DB_USER="flaretech"
-DB_PASSWORD="Etiosa1987"
+DB_NAME=""
+DB_USER=""
+DB_PASSWORD=""
 
 # Container names
 COCKPIT_CONTAINER_NAME="cockpit"
@@ -74,17 +74,17 @@ COCKPIT_PORT=9999
 POST_FIX_ADMIN_PORT=9987
 
 LOCALHOST="127.0.0.1"
-MACHINE_IP="85.9.198.105"
+MACHINE_IP=""
 
 POSTFIX_DBNAME=postfix
 ROUNDCUBE_DB_NAME=roundcube
 # RabbitMQ
-RABBITMQ_USER="flarepro"
-RABBITMQ_PASSWORD="flarepro123@"
+RABBITMQ_USER=""
+RABBITMQ_PASSWORD=""
 
 # EMQX Dashboard
-EMQX_DASHBOARD_USER="admin"
-EMQX_DASHBOARD_PASSWORD="flarepro123@"
+EMQX_DASHBOARD_USER=""
+EMQX_DASHBOARD_PASSWORD=""
 
 # -------------------------
 # Helpers
